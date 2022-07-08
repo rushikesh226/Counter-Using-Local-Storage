@@ -1,4 +1,4 @@
-document.querySelector("#inc").addEventListener("click",increaseCounter);
+    document.querySelector("#inc").addEventListener("click",increaseCounter);
     document.querySelector("#dec").addEventListener("click",decreaseCounter);
 
     var counter=localStorage.getItem("counter")||0;
